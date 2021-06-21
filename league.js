@@ -8,7 +8,7 @@ const headers = new fetch.Headers({
     "X-Riot-Token": api_key,
 });
 
-const maxPrevMatches = 20;
+const maxPrevMatches = 10;
 
 // All the GET calls to league's api
 // We get the player profile, league rank & stats, and matches here
