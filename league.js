@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 const parser = require('./parser');
 
-const api_key = "RGAPI-aab95da2-9105-4ff3-a6cb-51a923d0c7b6";
+const api_key = "RGAPI-da6b4a67-c2d3-4009-a0be-269dd3b56103";
 const api_link1 = "https://na1.api.riotgames.com";
 const api_link2 = "https://americas.api.riotgames.com";
 const headers = new fetch.Headers({
