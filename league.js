@@ -1,7 +1,8 @@
 const fetch = require('node-fetch');
 const parser = require('./parser');
+require('dotenv').config();
 
-const api_key = "RGAPI-98fe81d1-f149-443e-b4a2-3cc258f435ac";
+const api_key = process.env.API_KEY;
 const api_link1 = "https://na1.api.riotgames.com";
 const api_link2 = "https://americas.api.riotgames.com";
 const headers = new fetch.Headers({
